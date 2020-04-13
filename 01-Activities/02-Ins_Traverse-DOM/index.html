@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+    <div id="my-id"></div>
+    <ul id="my-list">
+        <li>eat</li>
+        <li>drink</li>
+        <li>sleep</li>
+        <li>zoom</li>
+        <li>repeat</li>
+    </ul>
+    <script>
+        var myEl = document.getElementById("my-id");
+        console.log(myEl)
+        myEl.style.padding = "50px";
+        myEl.style.backgroundColor = "#eee";
+        myEl.textContent = "I love javascript!";
+
+        console.log(document.body);
+        console.log(document.body.children)
+        console.log(document.body.childNodes)
+        console.log(document.body.children[1])
+    </script>
+
+</body>
+
+</html>

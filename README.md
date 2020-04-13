@@ -1,46 +1,51 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Unit 04: Web APIs
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Overview
+Built in to every browser are methods and properties that allow us to extend its basic functionality using JavaScript. This is an example of an application programming interface, or API. APIs are central to creating dynamic, interactive web applications. The first, and perhaps most important, API we will work with is the Web API, which interfaces with the browser. 
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+In the previous unit, you worked with the `Window` object to generate alerts and prompts in the browser. If you inspect the `Window` object in your developer tools, you'll see that it contains many properties and methods in addition to the ones you’re familiar with. The `Window` object is only one of dozens of interfaces we can access in the Web API, so you can probably imagine the functionality available to us if we've only seen the tip of the iceberg so far!  
 
-## User Story
+We will look at a few of the most important Web APIs in this unit, beginning with the Document Object Model (DOM). The DOM is an in-memory object-oriented representation of an HTML document, which allows us to interact with HTML using JavaScript. When we interface with the DOM, we are not making any changes to the HTML document itself—only to its representation as an object in the browser. DOM methods allow us to select elements to get content from them or insert content into them, generate new elements, and listen for and respond to events such as key presses and mouse clicks.
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
 
-## Acceptance Criteria
+## Key Topics
+The following topics will be covered in this unit:
+* Web APIs and interfaces
+* Timers
+* Document Object Model (DOM)
+* Getting, selecting, traversing, and manipulating elements
+* Form events
+* Keyboard and mouse events
+* Bubbling and propagation
+* Event delegation
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
 
-The following animation demonstrates the application functionality:
+## Comprehension Check
+You will be employer-ready if you can answer the following questions:
+1. What is the DOM API?
+2. What is event delegation?
+3. What is the purpose of client-side storage?
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
 
-## Review
+## Learning Objectives
+You will be employer-competitive if you are able to:
+* Explain and identify the document object and its relationship to HTML.
+* Use the `Window` object for local and session storage.
+* Explain event propagation and implement handling functions.
+* Use DOM API methods to select and dynamically generate HTML elements and content.
+* Use DOM API methods to handle events such as key presses and mouse clicks.
+* Research Web API documentation to implement new and unfamiliar interfaces.
 
-You are required to submit the following for review:
 
-* The URL of the deployed application.
+## Homework: Code Quiz
+As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment. These assessments are typically a combination of multiple-choice questions and interactive coding challenges. In this homework assignment, your challenge is to build a code quiz of multiple-choice questions.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+
+## Helpful Links
+* [Wikipedia: DOM](https://en.wikipedia.org/wiki/Document_Object_Model)
+* [MDN: DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+* [MDN: Client-side storage](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage)
+
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
